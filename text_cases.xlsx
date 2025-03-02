@@ -1,0 +1,43 @@
+# E-Commerce Website Testing Project
+
+## Project Overview
+This project focuses on functional and regression testing for an e-commerce website. It includes test case design, defect reporting, and collaboration with the development team.
+
+## Tools Used
+- **Excel** (for test case documentation)
+- **JIRA** (for defect tracking and reporting)
+
+## Project Structure
+```
+Ecommerce-Testing-Project/
+│── TestCases/
+│   ├── Test_Cases.xlsx
+│── DefectReports/
+│   ├── Defect_Log.xlsx
+│── README.md
+```
+
+## Project Scope
+### 1. Functional and Regression Testing
+- Verify core functionalities like user registration, login, search, cart, checkout, and payment processing.
+- Perform regression testing to ensure previously fixed defects do not reappear.
+
+### 2. Test Case Design (Excel)
+- Create detailed test cases in Excel covering positive and negative scenarios.
+- Categorize test cases based on functionality (Login, Search, Checkout, etc.).
+
+### 3. Defect Reporting (JIRA)
+- Log defects with details such as severity, steps to reproduce, expected vs actual results.
+- Collaborate with the development team to resolve issues efficiently.
+
+## Sample Defect Report Format (JIRA)
+```
+| Defect ID | Module        | Issue Summary                  | Severity | Status  |
+|----------|-------------|--------------------------------|---------|--------|
+| D001     | Login Page  | Incorrect error message        | High    | Open   |
+| D002     | Checkout    | Payment not processed correctly | Critical | Fixed  |
+```
+
+
+## License
+This project is open-source under the MIT License.
